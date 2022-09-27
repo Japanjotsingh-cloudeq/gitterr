@@ -1,0 +1,1 @@
+ec = "japanjot-demo-1"
