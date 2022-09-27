@@ -7,4 +7,3 @@ resource "aws_instance" "a1" {
     "name" = var.ec
   }
 }
-  
