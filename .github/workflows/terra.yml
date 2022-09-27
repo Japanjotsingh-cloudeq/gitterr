@@ -31,7 +31,7 @@ jobs:
           aws-secret-access-key:  ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-session-token:      ${{ secrets.AWS_SESSION_TOKEN }} add token in secrets
 
-          aws-region: $region
+          aws-region: $aws-region
 
       - name: Terraform Init
         id: init
