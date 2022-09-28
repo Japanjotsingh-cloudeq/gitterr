@@ -37,7 +37,7 @@ jobs:
         id: init
         run: terraform init 
 
-      - name: Terraform Plan
+      - name: Terraform destroy
         id:  destroy
         run: terraform destroy -auto-approve
 
